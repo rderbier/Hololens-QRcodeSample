@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rderbier\\gitRaph\\Hololens-QRcodeSample\\Assets\\SampleQRCodes.Dependencies.msb4u.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rderbier\\gitRaph\\Hololens-QRcodeSample\\Assets\\MixedRealityToolkit.Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rderbier\\gitRaph\\Hololens-QRcodeSample\\Assets\\MixedRealityToolkit.Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj",
+        "projectName": "DotNetAdapter",
+        "projectPath": "C:\\Users\\rderbier\\gitRaph\\Hololens-QRcodeSample\\Assets\\MixedRealityToolkit.Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj",
+        "packagesPath": "C:\\Users\\rderbier\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rderbier\\gitRaph\\Hololens-QRcodeSample\\Assets\\MixedRealityToolkit.Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\.obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rderbier\\gitRaph\\Hololens-QRcodeSample\\Assets\\NuGet.Config",
+          "C:\\Users\\rderbier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net46"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://www.nuget.org/api/v2/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net46": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net46": {
+          "dependencies": {
+            "Microsoft.Windows.MixedReality.DotNetWinRT": {
+              "suppressParent": "Analyzers",
+              "target": "Package",
+              "version": "[0.5.1045, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rderbier\\gitRaph\\Hololens-QRcodeSample\\Assets\\SampleQRCodes.Dependencies.msb4u.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rderbier\\gitRaph\\Hololens-QRcodeSample\\Assets\\SampleQRCodes.Dependencies.msb4u.csproj",
+        "projectName": "SampleQRCodes.Dependencies.msb4u",
+        "projectPath": "C:\\Users\\rderbier\\gitRaph\\Hololens-QRcodeSample\\Assets\\SampleQRCodes.Dependencies.msb4u.csproj",
+        "packagesPath": "C:\\Users\\rderbier\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rderbier\\gitRaph\\Hololens-QRcodeSample\\MSBuild\\Output\\obj\\Dependencies\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rderbier\\gitRaph\\Hololens-QRcodeSample\\Assets\\NuGet.Config",
+          "C:\\Users\\rderbier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net46"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://www.nuget.org/api/v2/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net46": {
+            "projectReferences": {
+              "C:\\Users\\rderbier\\gitRaph\\Hololens-QRcodeSample\\Assets\\MixedRealityToolkit.Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj": {
+                "projectPath": "C:\\Users\\rderbier\\gitRaph\\Hololens-QRcodeSample\\Assets\\MixedRealityToolkit.Providers\\WindowsMixedReality\\Shared\\DotNetAdapter\\DotNetAdapter.csproj",
+                "privateAssets": "analyzers"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net46": {
+          "dependencies": {
+            "MSBuildForUnity": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "Analyzers",
+              "target": "Package",
+              "version": "[0.9.1-*, 0.9.1]"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
