@@ -2,7 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
-/[Ll]ibrary/
+/[Ll]ibrary/**
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
@@ -12,6 +12,8 @@
 /[Mm]emoryCaptures/
 /[Pp]ackages/
 
+# keep the scene opened
+!/[Ll]ibrary/LastSceneManagerSetup.txt
 # Assets Packages is handled by Nuget
 /[Aa]ssets/Packages/
 
