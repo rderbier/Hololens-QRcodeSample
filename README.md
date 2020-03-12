@@ -24,9 +24,11 @@ QRCodeVisualize and QRCodeDetector both extend the QRCodeListener class.
 ## Install
 Download NugetForUnity package
 
-Open the project in Unity3D
+Open the project in Unity3D. Microsoft.MixedReality.QR is handled by NuGet and will get installed.
 
-Import MRTK Foundation
+Import MRTK Foundation package (2.3) : after some tests with Nuget I decided to install MRTK through the normal "import custom package".
+
+Open the Scene QRSamples/QRSamples : accept the import of TMP Essential (Text Mesh Pro).
 
 Build in Unity3D
 
