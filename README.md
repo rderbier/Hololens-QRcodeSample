@@ -36,9 +36,15 @@ The App will ask your permission to access your camera.
 
 get so printed QRCodesin your environment (see the requirements) and experiment.
 
+## Use Cases
+QRCodes can help your application to better understand the environment.
 
-## Notes
-As the qr detection code is not running in a  MonoBehavior, we need a mechanism to communicate from the callback to the MonoBehavior class in order to act on scene objects. The initial code (Visualizer) is using a Queue of ActionData objects (the ActionData struct is defined in the Visualizer.cs). I simplified a bit the structure but kept the mechanism.
+A QRcode placed in a room could be used to initialize a correct AR scene and also place holograms (either relatively to the QR position or by restoring anchors once you get the room name).
+
+They can also be used simply to reveal information (launch animations, open browser, ...)
+
+## Implementation Notes
+As the QR detection code is not running in a  MonoBehavior, we need a mechanism to communicate from the callback to the MonoBehavior class in order to act on scene objects. The initial code (Visualizer) is using a Queue of ActionData objects (the ActionData struct is defined in the Visualizer.cs). I simplified a bit the structure but kept the mechanism.
 
 I introduce a use case where the app is looking for an expected QRcode value.
 
