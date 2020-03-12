@@ -18,13 +18,13 @@
 /[Aa]ssets/Packages/
 
 # Assets MixedReality.. packages
-/[Aa]ssets/Mixedreality*
+/[Aa]ssets/MixedReality*
 /[Aa]ssets/TextMesh*
-/[Aa]ssets/Mixedreality*.meta
+/[Aa]ssets/MixedReality*.meta
 /[Aa]ssets/TextMesh*.meta
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
-!/[Aa]ssets/**/*.meta
+#!/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
