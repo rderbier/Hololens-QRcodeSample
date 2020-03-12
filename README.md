@@ -1,10 +1,10 @@
 # Hololens-QRcodeSample
 
 
-HoloLens 2 can detect QR codes in the environment facing the headset. When done the app tracks a coordinate system at each code's real-world location.
+With the help of [Microsoft.MixedReality.QR](https://docs.microsoft.com/en-us/windows/mixed-reality/qr-code-tracking) package, HoloLens 2 application can perform [QR code tracking] (https://docs.google.com/document/d/1etUpeEr5ulgMkZ4Go-treiiYqjXPVxl0XXYG4m5ai8I/edit)
 
-This project shows how to use [Microsoft.MixedReality.QR](https://docs.microsoft.com/en-us/windows/mixed-reality/qr-code-tracking) package in a HoloLens Application.
-It is based on sample code from [chgatla-microsoft/QRTracking](https://github.com/chgatla-microsoft/QRTracking/tree/master/SampleQRCodes).
+This project shows how to use [Microsoft.MixedReality.QR](https://docs.microsoft.com/en-us/windows/mixed-reality/qr-code-tracking) package in a HoloLens 2 Application.
+It is based on sample code from [chgatla-microsoft/QRTracking](https://github.com/chgatla-microsoft/QRTracking/tree/master/SampleQRCodes) with some tweaks.
 
 
 I kept the original source code (QRTracking namespace) in QRTracking folder.
@@ -28,15 +28,15 @@ Open the project in Unity3D. Microsoft.MixedReality.QR is handled by NuGet and w
 
 Import MRTK Foundation package (2.3) : after some tests with Nuget I decided to install MRTK through the normal "import custom package".
 
-Open the Scene QRSamples/QRSamples : accept the import of TMP Essential (Text Mesh Pro).
+The test scene is QRSamples/QRSamples and should be opened. Accept the import of TMP Essential (Text Mesh Pro) is requested.
 
-Build in Unity3D
+Build in Unity3D (make sure to switch to UWP platform and follow [MRTK Build instructions](https://microsoft.github.io/MixedRealityToolkit-Unity/Documentation/BuildAndDeploy.html)  )
 
 Deploy from Visual Studio.
 
 The App will ask your permission to access your camera.
 
-get so printed QRCodesin your environment (see the requirements) and experiment.
+Get some printed QRCodes in your environment (see the requirements) and experiment (you need one with the expected label "SAMPLE TAG 1" if you have not changed the qrcode expected in the QR Code Detector script attached to the SceneManager object).
 
 ## Use Cases
 QRCodes can help your application to better understand the environment.

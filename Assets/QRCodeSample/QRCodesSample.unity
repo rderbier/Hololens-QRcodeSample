@@ -240,22 +240,22 @@ PrefabInstance:
     - target: {fileID: 1403728097859308933, guid: 04147fb759fac964ba2837dcdc4738bf,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 197
+      value: 247
       objectReference: {fileID: 0}
     - target: {fileID: 1403728097859308933, guid: 04147fb759fac964ba2837dcdc4738bf,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 40
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1403728097859308933, guid: 04147fb759fac964ba2837dcdc4738bf,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 39
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 1403728097859308933, guid: 04147fb759fac964ba2837dcdc4738bf,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1403728097859308933, guid: 04147fb759fac964ba2837dcdc4738bf,
         type: 3}
@@ -270,16 +270,18 @@ PrefabInstance:
 
         If the code is an URL it will open a browser window.
 
-        If the code is "TIBCO LABS TAG 1" success sound is played.
+        If the code is "SAMPLE TAG 1", success sound is played and 3D axes are shown
+        at the detection position.
 
-        All codes detected will have a small panel displaying the data.
+
+        All QR codes detected will have a small panel displaying some data.
 
 '
       objectReference: {fileID: 0}
     - target: {fileID: 1403728097859308933, guid: 04147fb759fac964ba2837dcdc4738bf,
         type: 3}
       propertyPath: m_firstOverflowCharacterIndex
-      value: 133
+      value: 141
       objectReference: {fileID: 0}
     - target: {fileID: 1403728097859308935, guid: 04147fb759fac964ba2837dcdc4738bf,
         type: 3}
